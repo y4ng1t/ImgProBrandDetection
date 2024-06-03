@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Adidas', 'Chanel', 'Gucci']
+
+roboflow:
+  workspace: yustina-yunita-pwhdi
+  project: brand-nczv1
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yustina-yunita-pwhdi/brand-nczv1/dataset/6
